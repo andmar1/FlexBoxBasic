@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Formularios</title>
+</head>
+<body>
+    <a href="index.html">Ir al indice</a>
+
+    <form>
+        <input type="text">
+        <br>
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <input type="email">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="month">
+        <br>
+        <br>
+        <input type="week">
+        <br>
+        <br>
+        <input type="number">
+        <br>
+        <br>
+        <input type="color">
+        <br>
+        <br>
+        <input type="range">
+        <br>
+        <br>
+        <!--"radio" Solo nos permite seleccionar uno solo-->
+        <input type="radio" name="genero" value="F">
+        <input type="radio" name="genero" value="M">
+        <input type="radio" name="genero" value="BS">
+        <br>
+        <br>
+        <!--"checkbox" Nos permite seleccionar mas de uno-->
+        <input type="checkbox" name="genero" value="F">
+        <input type="checkbox" name="genero" value="M">
+        <input type="checkbox" name="genero" value="BS">
+        <br>
+        <!--Reestablece la informacion-->
+        <input type="reset">
+        <br>
+        <!--Envia la informacion-->
+        <input id="entrada" type="submit">
+        <br>
+        <!--Podemos enviar tambien con la etiqueta boton-->
+        <button>Enviar</button>
+        <br>
+        <br>
+        <textarea class="fondoFeo" ></textarea>
+        <br>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </select>
+        <br>
+        <br>
+        <select>
+            <optgroup label="Lenguajes" >
+                <option>PHP</option>
+                <option>Java</option>
+                <option>C++</option>
+                <option>Jython</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <select>
+            <optgroup label="DataBases Engine" >
+                <option>MySQL</option>
+                <option>SQLServer</option>
+                <option>MAriaDB</option>
+                <option>Postgresql</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <input list="Etiquetas">
+        <datalist id="Etiquetas">
+            <option value="Texto"></option>
+            <option value="Tablas"></option>
+            <option value="Otro"></option>
+        </datalist>  
+        <br>
+        <br>
+        <!--Jala los archivos para subirlos-->
+        <input type="file">
+        <br>
+        <h4>Etiqueta de progreso</h4>
+        <progress value="50" max="100">
+        <br>
+
+    </form>
+
+</body>
+</html>

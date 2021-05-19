@@ -1,0 +1,32 @@
+p -> parrafo
+pr -> parrafo con preformato, acomoda los parrafos si estan desordenados.
+b -> negrita
+strong -> similar a las negritas
+i ->cursiva 
+em -> similar a las cursiva
+s -> tachado de la palabra 
+u -> subrayar 
+sub -> subindice, usados para los logaritmos o funciones matematicas 
+sup -> superindice, usado para elevar las potencias
+ul -> listas desordenadas
+ol -> listas ordenadas con numeros 
+li -> listas
+a -> hipervinculos
+table -> tabla 
+tr -> filas 
+td ->columnas
+th -> titulo de las filas
+caption -> titulo de la tabla
+Tipos de input
+input -> entrada de datos 
+type "radio" -> elige solo una opcion
+type "checkbox" -> elige mas de una opcion g
+type "reset" ->elimina todo el contenido del form
+type "submit" -> envia el contenido del form  
+select -> te da un menu de opciones desplegables
+optgroup -> da un encabezado a la listas de grupos
+
+
+
+select -> 
+

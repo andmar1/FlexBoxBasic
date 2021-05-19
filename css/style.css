@@ -1,0 +1,118 @@
+#italika{
+    color: blue;
+    font-size: larger;
+}
+
+#italika_2{
+    color: red;
+    font-size: larger;
+}
+
+#tachado{
+    color: brown;
+    font-size: larger;
+}
+
+#pSubIndice,subIndice{
+    color: red;
+    font-size: larger;
+}
+
+#pSupIndice,supIndice{
+    color:green;
+    font-size: larger;
+}
+#entrada{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 5%;
+}
+#pie_listas{
+    margin-top: 10%;
+}
+#pie_form{
+    margin-top: 10%;
+}
+.fondoFeo{
+    background-color: chartreuse;
+}
+
+/*curso css*/
+/*reset universal*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:azure;
+    font-family: sans-serif; /*tipo de letra*/
+    font-size: 16px;
+}
+
+img{
+    padding-top: 0.5em;
+    width: 15%;
+    margin: 1%;
+    
+}
+
+nav{
+    border: 1px solid deeppink; /*Propiedades del recuadro donde esta el articulo*/
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    display: inline-block; /*aumenta el ancho del nav */
+    padding: 0.5em;
+    text-decoration:none; /*quita el subrayado en las palabras*/    
+}
+
+nav a:hover{
+    color: red
+}
+
+section{
+    float: left;
+    height: auto;
+    margin: 0 0.5em 0 0.5em ; /*Medidas "arriba, derecha, abajo, izquierda"*/
+    width: 60%;
+}
+article{
+    border: 1px solid deeppink; /*Propiedades del recuadro donde esta el articulo*/
+    margin-top: 0.5em;
+    padding: 1em;
+
+}
+
+p{
+    text-align: justify; /*justifica los parrafos, los acomoda */
+}
+
+aside{
+    border: 1px solid deeppink; /*Propiedades del recuadro donde esta el articulo*/
+    float: left; 
+    background-color: rgb(228, 212, 212);
+    height: auto;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 36%;
+}
+
+footer{
+    border: 1px solid deeppink; /*Propiedades del recuadro donde esta el articulo*/
+    background-color: whitesmoke;
+    float: left;
+    bottom: 0px; /*cero pixeles en la parte inferior*/
+    padding: 1em 0 1em 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer p{
+    color: black;
+    font-size: 0.9em;
+    text-align: center;
+}
